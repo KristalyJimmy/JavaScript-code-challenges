@@ -4,7 +4,14 @@ const evenNumbers = (e) => {
     return  e.filter(num => num % 2 === 0);
 }
 console.log(evenNumbers(numbers));
+
 //2. Print a table containing multiplication tables
+const arrayOfNumbers = [1,2,3,4,5,6,7,8,9,10];
+const multiplication = arrayOfNumbers.map(num => num *2);
+console.log(multiplication);
+
+
+
 //3. Create a length converter function
 //4. Calculate the sum of numbers within an array
 //5. Create a function that reverses an array
