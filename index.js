@@ -6,8 +6,6 @@ const evenNumbers = (e) => {
 console.log('Even numbers of the array: '+evenNumbers(numbers));
 
 //2. Print a table containing multiplication tables
-/*const arrayOfNumbers = [1,2,3,4,5,6,7,8,9,10];
-const multiplication = arrayOfNumbers.map(num => num * 2);*/
 function multiplicationTable() {
     let table = '';
     for (let i = 1; i <= 10; i++) {
