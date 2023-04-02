@@ -34,6 +34,10 @@ const reverseResult = reverseArray.reverse();
 console.log('Reversed array: '+reverseResult);
 
 //6. Sort an array from lowest to highest
+const sortArray = [11,20,33,44,1,2,32,29];
+const sortNumbers = sortArray.sort((a,b) => a-b);
+console.log('Array sorted from lowest to highest: '+sortNumbers);
+
 //7. Create a function that filters out negative numbers
 //8. Remove the spaces found in a string
 //9. Return a Boolean if a number is divisible by 10
