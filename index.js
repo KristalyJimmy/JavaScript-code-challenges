@@ -22,7 +22,12 @@ const kmToMileConverter = (km) => {
     return `${celsius} celsius is equal to ${fahrenheit} fahrenheit.`;
   }
   console.log(celsiusToFahrenheit(20));
+
 //4. Calculate the sum of numbers within an array
+
+const numberArray = [1,2,3,4,5,6,7,8,9,10];
+const sumOfArray = numberArray.reduce((acc, curr) => acc + curr);
+console.log(sumOfArray);
 //5. Create a function that reverses an array
 //6. Sort an array from lowest to highest
 //7. Create a function that filters out negative numbers
