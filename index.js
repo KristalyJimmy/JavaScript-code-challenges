@@ -40,12 +40,11 @@ console.log('Array sorted from lowest to highest: '+sortNumbers);
 
 //7. Create a function that filters out negative numbers
 const arrayWithNegativeNumbers = [-11,20,-33,44,-1,2,32,29];
-const filterNegatives = () =>  {
-    return arrayWithNegativeNumbers.filter(num => num >= 0);
-} 
-console.log('Array without negative numbers: '+filterNegatives(arrayWithNegativeNumbers));
+const filterNegatives = arrayWithNegativeNumbers.filter(num => num >= 0);
 
+console.log('Array without negative numbers: '+filterNegatives);
 
 //8. Remove the spaces found in a string
+
 //9. Return a Boolean if a number is divisible by 10
 //10. Return the number of vowels in a string
