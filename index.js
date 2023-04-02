@@ -45,6 +45,14 @@ const filterNegatives = arrayWithNegativeNumbers.filter(num => num >= 0);
 console.log('Array without negative numbers: '+filterNegatives);
 
 //8. Remove the spaces found in a string
+const messyString = '                  This string has more space than it should have...  ';
+const cleanString = messyString.trim();
+console.log(cleanString);
 
 //9. Return a Boolean if a number is divisible by 10
+const truthyOrFalsy = true;
+const numberDividedByTen = (number) => {
+    return number % 10 === 0 ? truthyOrFalsy : !truthyOrFalsy;
+}
+console.log(numberDividedByTen(2));
 //10. Return the number of vowels in a string
