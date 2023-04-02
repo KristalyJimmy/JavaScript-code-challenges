@@ -3,7 +3,7 @@ const numbers = [0,1,2,3,4,5,6,7,8,9,10];
 const evenNumbers = (e) => {
     return  e.filter(num => num % 2 === 0);
 }
-console.log(evenNumbers(numbers));
+console.log('Even numbers of the array: '+evenNumbers(numbers));
 
 //2. Print a table containing multiplication tables
 const arrayOfNumbers = [1,2,3,4,5,6,7,8,9,10];
@@ -24,11 +24,15 @@ const kmToMileConverter = (km) => {
   console.log(celsiusToFahrenheit(20));
 
 //4. Calculate the sum of numbers within an array
-
 const numberArray = [1,2,3,4,5,6,7,8,9,10];
 const sumOfArray = numberArray.reduce((acc, curr) => acc + curr);
-console.log(sumOfArray);
+console.log('Sum of array: '+sumOfArray);
+
 //5. Create a function that reverses an array
+const reverseArray = [1,2,3,4,5,6,7,8,9,10];
+const reverseResult = reverseArray.reverse();
+console.log('Reversed array: '+reverseResult);
+
 //6. Sort an array from lowest to highest
 //7. Create a function that filters out negative numbers
 //8. Remove the spaces found in a string
