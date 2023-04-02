@@ -1,7 +1,7 @@
 //1. Print all even numbers from 0 – 10
 const numbers = [0,1,2,3,4,5,6,7,8,9,10];
 const evenNumbers = (e) => {
-    return  e.filter(num => num % 2 === 0);//[0,1,2,3,4,5,6,7,8,9,10];
+    return  e.filter(num => num % 2 === 0);
 }
 console.log(evenNumbers(numbers));
 //2. Print a table containing multiplication tables
