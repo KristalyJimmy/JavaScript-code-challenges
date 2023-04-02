@@ -6,9 +6,20 @@ const evenNumbers = (e) => {
 console.log('Even numbers of the array: '+evenNumbers(numbers));
 
 //2. Print a table containing multiplication tables
-const arrayOfNumbers = [1,2,3,4,5,6,7,8,9,10];
-const multiplication = arrayOfNumbers.map(num => num * 2);
-console.log(multiplication);
+/*const arrayOfNumbers = [1,2,3,4,5,6,7,8,9,10];
+const multiplication = arrayOfNumbers.map(num => num * 2);*/
+function multiplicationTable() {
+    let table = '';
+    for (let i = 1; i <= 10; i++) {
+      for (let j = 1; j <= 10; j++) {
+        table += `${j} * ${i} = ${i * j}\n`;
+      }
+      table += '\n';
+    }
+    console.log(table);
+  }
+  multiplicationTable();
+
 
 //3. Create a converter function from kilometers to miles and celsius to fahrenheit
 const kmToMileConverter = (km) => {
@@ -55,6 +66,7 @@ const numberDividedByTen = (number) => {
     return number % 10 === 0 ? truthyOrFalsy : !truthyOrFalsy;
 }
 console.log(numberDividedByTen(2));
+
 //10. Return the number of vowels in a string
 const loremIpsum = 'Lorem ipsum dolor sit amet';
 const countVowels = (str) => {
