@@ -10,7 +10,7 @@ const arrayOfNumbers = [1,2,3,4,5,6,7,8,9,10];
 const multiplication = arrayOfNumbers.map(num => num * 2);
 console.log(multiplication);
 
-//3. Create a length converter function from kilometers to miles
+//3. Create a converter function from kilometers to miles and celsius to fahrenheit
 const kmToMileConverter = (km) => {
     const miles = km * 0.621371;
     return `${km} kilometers is equal to ${miles} miles.`;
